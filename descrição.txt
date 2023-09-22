@@ -1,0 +1,7 @@
+Realizado uma refatoração no código, dividindo os métodos para ter uma fácil leitura e manutenção, além de separar totalmente as responsabilidades, cada método ficou isolado e responsável por realizar uma tarefa e assim prosseguir com o programa.
+
+1- Verificação se o usuário é um cliente válido, cadastrado no sistema, para poder realizar compras.
+2- Verificar se for admin, caso for admin, ele tem acesso total as empresas, mostrando todo estoque e o saldo das empresas. 
+3- Como melhoria, verificar a quantidade de produtos que o cliente está comprando e assim que finalizar a compra, remove a quantidade comprada do estoque da empresa.
+4- Ao finalizar uma compra, o saldo total da empresa não estava sendo atualizado de acordo com a comissão paga, correção para subtrair o valor da comissão e salvar o saldo atualizado da empresa.
+
